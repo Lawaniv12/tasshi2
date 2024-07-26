@@ -4,6 +4,7 @@
     COMMON css 
 ===========================*/
 @import url("../../../../css2");
+
 html {
   scroll-behavior: smooth;
 }
@@ -272,9 +273,11 @@ p {
   0% {
     transform: translateY(30px);
   }
+
   50% {
     transform: translateY(-30px);
   }
+
   100% {
     transform: translateY(30px);
   }
@@ -385,24 +388,31 @@ p {
   12.5% {
     transform: rotate(135deg);
   }
+
   25% {
     transform: rotate(270deg);
   }
+
   37.5% {
     transform: rotate(405deg);
   }
+
   50% {
     transform: rotate(540deg);
   }
+
   62.5% {
     transform: rotate(675deg);
   }
+
   75% {
     transform: rotate(810deg);
   }
+
   87.5% {
     transform: rotate(945deg);
   }
+
   to {
     transform: rotate(1080deg);
   }
@@ -412,9 +422,11 @@ p {
   0% {
     transform: rotate(130deg);
   }
+
   50% {
     transform: rotate(-5deg);
   }
+
   to {
     transform: rotate(130deg);
   }
@@ -424,9 +436,11 @@ p {
   0% {
     transform: rotate(-130deg);
   }
+
   50% {
     transform: rotate(5deg);
   }
+
   to {
     transform: rotate(-130deg);
   }
@@ -472,11 +486,13 @@ p {
   color: rgba(0, 0, 0, 0.88);
 }
 
-.sticky .navbar .navbar-nav .nav-item a.active, .sticky .navbar .navbar-nav .nav-item a:hover {
+.sticky .navbar .navbar-nav .nav-item a.active,
+.sticky .navbar .navbar-nav .nav-item a:hover {
   color: #1E7E34;
 }
 
-.sticky .navbar .navbar-nav .nav-item a.active::before, .sticky .navbar .navbar-nav .nav-item a:hover::before {
+.sticky .navbar .navbar-nav .nav-item a.active::before,
+.sticky .navbar .navbar-nav .nav-item a:hover::before {
   background: #1E7E34;
 }
 
@@ -528,7 +544,8 @@ p {
   box-shadow: none;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .navbar-toggler {
     position: absolute;
     right: 0;
@@ -559,7 +576,8 @@ p {
   top: -7px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .navbar-collapse {
     position: absolute;
     top: 100%;
@@ -577,20 +595,23 @@ p {
   padding: 8px 0;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .navbar-nav .nav-item {
     padding: 0px;
     padding-left: 20px;
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .navbar-nav .nav-item:first-child {
     margin-top: 20px;
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .navbar-nav .nav-item:last-child {
     margin-bottom: 20px;
   }
@@ -617,7 +638,8 @@ p {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .navbar-nav .nav-item a {
     display: inline-block;
     padding: 8px 0px;
@@ -625,7 +647,8 @@ p {
   }
 }
 
-.navbar-nav .nav-item a:hover, .navbar-nav .nav-item a.active {
+.navbar-nav .nav-item a:hover,
+.navbar-nav .nav-item a.active {
   color: #1E7E34;
 }
 
@@ -646,11 +669,11 @@ p {
     top: 0;
   }
 
-  .d-flex{
+  .d-flex {
     display: flex;
     flex-wrap: wrap;
   }
-  
+
 }
 
 .navbar-nav .nav-item .sub-menu {
@@ -665,7 +688,8 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .navbar-nav .nav-item .sub-menu {
     position: relative;
     width: 100%;
@@ -686,7 +710,8 @@ p {
   color: rgba(0, 0, 0, 0.88);
 }
 
-.navbar-nav .nav-item .sub-menu li a.active, .navbar-nav .nav-item .sub-menu li a:hover {
+.navbar-nav .nav-item .sub-menu li a.active,
+.navbar-nav .nav-item .sub-menu li a:hover {
   padding-left: 25px;
   color: #1E7E34;
 }
@@ -695,7 +720,8 @@ p {
   display: none;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .navbar-nav .sub-nav-toggler {
     display: block;
     position: absolute;
@@ -720,7 +746,8 @@ p {
   top: -5px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .header-btn {
     padding-right: 80px;
   }
@@ -777,7 +804,8 @@ p {
   z-index: 1;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .hero-section {
     height: auto;
     padding-top: 150px;
@@ -1088,7 +1116,8 @@ form.get-started-form button {
   max-width: 100%;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .feature-section-1 .feature-content-wrapper {
     margin-bottom: 100px;
   }
@@ -1119,7 +1148,8 @@ form.get-started-form button {
   background: rgba(255, 255, 255, 0.64);
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .feature-section-2 .feature-content-wrapper {
     margin-bottom: 100px;
   }
@@ -1139,7 +1169,8 @@ form.get-started-form button {
   margin-right: 20px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .feature-section-2 .feature-image-2 {
     margin-bottom: 50px;
   }
@@ -1162,13 +1193,16 @@ form.get-started-form button {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .feature-section-3 .feature-image-3 {
     margin-top: 50px;
   }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .feature-section-3 .feature-image-3 img {
     width: 100%;
   }
@@ -1312,7 +1346,8 @@ form.get-started-form button {
   right: 0;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .testimonial-section .testimonial-image {
     display: none;
   }
@@ -1335,7 +1370,7 @@ form.get-started-form button {
 }
 
 .footer .cta-section .cta-wrapper {
-  background-image: url("../img/cta/cta-bg.svg");
+  background-image: url("../img/cta/cta-bg 1.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1383,7 +1418,7 @@ form.get-started-form button {
 }
 
 .footer .footer-content {
-  background-image: url("../img/footer/footer-bg.svg");
+  background-image: url("../img/footer/footer-bg-1.svg");
   background-position: top right;
   background-size: cover;
   background-repeat: no-repeat;
