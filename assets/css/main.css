@@ -108,6 +108,61 @@ h1 {
   font-weight: 600;
 }
 
+.features-section {
+  padding: 50px;
+  max-width: 1200px;
+  margin: auto;
+}
+.features-title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+.features-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.feature-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s;
+  width: calc(33.333% - 40px); /* 3 in a row with some margin */
+  min-width: 300px; /* Responsive adjustment */
+}
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+.feature-icon {
+  font-size: 3em;
+  padding: 20px;
+  color: #007BFF; /* Customize the icon color */
+  text-align: left;
+}
+.feature-content {
+  padding: 20px;
+  text-align: left;
+}
+.feature-content h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+.feature-content p {
+  color: #555;
+}
+@media (max-width: 768px) {
+  .feature-card {
+      width: calc(50% - 40px); /* 2 in a row */
+  }
+}
+@media (max-width: 480px) {
+  .feature-card {
+      width: calc(100% - 40px); /* 1 in a row */
+  }
+}
 /* ==========================================================================
    Showcase 
    ========================================================================== */
